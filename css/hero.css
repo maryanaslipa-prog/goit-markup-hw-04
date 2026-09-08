@@ -1,0 +1,21 @@
+.hero {
+  padding: 188px 0;
+  background-color: #2e2f42;
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 48px;
+}
+.hero-title {
+  max-width: 496px;
+  margin: 0 auto;
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}

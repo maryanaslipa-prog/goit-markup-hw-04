@@ -12,6 +12,18 @@
 .features-item {
   width: calc((100% - 3 * 24px) / 4);
 }
+.features-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  height: 112px;
+  background-color: #f4f4fd;
+}
+.features-icon {
+}
 .features-subtitle {
   margin-bottom: 8px;
 

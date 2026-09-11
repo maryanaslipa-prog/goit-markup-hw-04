@@ -6,10 +6,51 @@
 .footer .container {
   display: flex;
   gap: 16px;
-  flex-direction: column;
 }
 
 .footer-text {
   max-width: 264px;
+  color: #f4f4fd;
+}
+
+.footer-left {
+  margin-right: 120px;
+}
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 208px;
+}
+.footer-caption {
+  color: #fff;
+}
+.footer-socails-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-socials-item {
+}
+.footer-socials-link {
+}
+.footer-socials-link:hover .footer-wrapper {
+  background-color: #31d0aa;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+.footer-socials-icon {
   color: #f4f4fd;
 }
